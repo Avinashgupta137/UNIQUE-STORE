@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "72D19BA8-CF2E-41A0-8C81-77EF599C0248"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E26111B3-71F0-49C7-B7F7-CCCECCCF01F8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Shopping-App-eCommerce/Controller/Scenes/Profile/ProfileViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "106"
+            endingLineNumber = "106"
+            landmarkName = "signOut()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "20CEE5DD-1FC2-46AB-A5B6-5D8A3FB2882D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Shopping-App-eCommerce/Controller/Scenes/Login/LoginViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "rememberME(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "18C5118C-0789-4C3E-A358-4CCB0D0F0EFF"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Shopping-App-eCommerce/Controller/Scenes/Login/LoginViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "107"
+            endingLineNumber = "107"
+            landmarkName = "isEmailVerified()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1DEFC71C-BFAD-451B-8DD5-16F0E3653263"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Shopping-App-eCommerce/Controller/Scenes/Login/LoginViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "70"
+            endingLineNumber = "70"
+            landmarkName = "signInButtonPressed(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C2CDB6C1-85D2-43BF-A580-882FF50DA9CA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Shopping-App-eCommerce/Controller/Scenes/Profile/ProfileViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "80"
+            endingLineNumber = "80"
+            landmarkName = "accDelete(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C2CDB6C1-85D2-43BF-A580-882FF50DA9CA - 2f5b517a4a4b2a65"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.FIRAuthDataResult&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in closure #2 (__C.UIAlertAction) -&gt; () in Shopping_App_eCommerce.ProfileViewController.accDelete(__C.UIButton) -&gt; ()"
+                  moduleName = "Shopping-App-eCommerce"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ips-177/Downloads/BazaarBundle_E-Commerce-Shopping-App-main/Shopping-App-eCommerce/Controller/Scenes/Profile/ProfileViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "80"
+                  endingLineNumber = "80"
+                  offsetFromSymbolStart = "156">
+               </Location>
+               <Location
+                  uuid = "C2CDB6C1-85D2-43BF-A580-882FF50DA9CA - 94d881d9a3612ef6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Swift.Error&gt;) -&gt; () in closure #1 (Swift.Optional&lt;__C.FIRAuthDataResult&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in closure #2 (__C.UIAlertAction) -&gt; () in Shopping_App_eCommerce.ProfileViewController.accDelete(__C.UIButton) -&gt; ()"
+                  moduleName = "Shopping-App-eCommerce"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ips-177/Downloads/BazaarBundle_E-Commerce-Shopping-App-main/Shopping-App-eCommerce/Controller/Scenes/Profile/ProfileViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "81"
+                  endingLineNumber = "81"
+                  offsetFromSymbolStart = "88">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3E5946B1-B6EE-4582-B234-D6439E1552D1"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Shopping-App-eCommerce/Controller/Scenes/Profile/ProfileViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "87"
+            endingLineNumber = "87"
+            landmarkName = "accDelete(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EAC7B4BF-0ADB-4407-9C92-6375BBF0B17A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Shopping-App-eCommerce/Controller/Scenes/Login/LoginViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "GuestMode(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "EAC7B4BF-0ADB-4407-9C92-6375BBF0B17A - f5f70e7d940e803d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Shopping_App_eCommerce.LoginViewController.GuestMode(__C.UIButton) -&gt; ()"
+                  moduleName = "Shopping-App-eCommerce"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ips-177/Downloads/BazaarBundle_E-Commerce-Shopping-App-main/Shopping-App-eCommerce/Controller/Scenes/Login/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "46"
+                  endingLineNumber = "46"
+                  offsetFromSymbolStart = "36">
+               </Location>
+               <Location
+                  uuid = "EAC7B4BF-0ADB-4407-9C92-6375BBF0B17A - 4e180826c49f601e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.FIRAuthDataResult&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Shopping_App_eCommerce.LoginViewController.GuestMode(__C.UIButton) -&gt; ()"
+                  moduleName = "Shopping-App-eCommerce"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ips-177/Downloads/BazaarBundle_E-Commerce-Shopping-App-main/Shopping-App-eCommerce/Controller/Scenes/Login/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "84">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "27A6545B-1F7B-48A2-8128-1FD30AA918AE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Shopping-App-eCommerce/Controller/Scenes/Login/LoginViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
+            landmarkName = "GuestMode(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "27A6545B-1F7B-48A2-8128-1FD30AA918AE - f5f70e7d940e803d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Shopping_App_eCommerce.LoginViewController.GuestMode(__C.UIButton) -&gt; ()"
+                  moduleName = "Shopping-App-eCommerce"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ips-177/Downloads/BazaarBundle_E-Commerce-Shopping-App-main/Shopping-App-eCommerce/Controller/Scenes/Login/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "46"
+                  endingLineNumber = "46"
+                  offsetFromSymbolStart = "36">
+               </Location>
+               <Location
+                  uuid = "27A6545B-1F7B-48A2-8128-1FD30AA918AE - 4e180826c49f601e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.FIRAuthDataResult&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Shopping_App_eCommerce.LoginViewController.GuestMode(__C.UIButton) -&gt; ()"
+                  moduleName = "Shopping-App-eCommerce"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ips-177/Downloads/BazaarBundle_E-Commerce-Shopping-App-main/Shopping-App-eCommerce/Controller/Scenes/Login/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "84">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0543DEC1-367D-4319-99A1-1D3BB6BB7B6A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Shopping-App-eCommerce/Controller/Scenes/Login/LoginViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "GuestMode(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
