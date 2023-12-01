@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		A09B712F2B19B570006E19E3 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09B712E2B19B570006E19E3 /* WelcomeViewController.swift */; };
-		A0AB337A2B19F73900BC5167 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A0AB33792B19F73800BC5167 /* GoogleService-Info.plist */; };
 		B6007914298406E6002A1CFF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6007913298406E6002A1CFF /* AppDelegate.swift */; };
 		B6007916298406E6002A1CFF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6007915298406E6002A1CFF /* SceneDelegate.swift */; };
 		B600791B298406E6002A1CFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6007919298406E6002A1CFF /* Main.storyboard */; };
@@ -44,11 +43,11 @@
 		B6D445662989179B00C22041 /* CategorizedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D445652989179B00C22041 /* CategorizedViewController.swift */; };
 		B6D4456A298917DC00C22041 /* CategorizedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D44568298917DC00C22041 /* CategorizedTableViewCell.swift */; };
 		B6D4456B298917DC00C22041 /* CategorizedTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6D44569298917DC00C22041 /* CategorizedTableViewCell.xib */; };
+		E1E70A932B1A25B700DB620B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E1E70A922B1A25B700DB620B /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A09B712E2B19B570006E19E3 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
-		A0AB33792B19F73800BC5167 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B6007910298406E6002A1CFF /* Shopping-App-eCommerce.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Shopping-App-eCommerce.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6007913298406E6002A1CFF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B6007915298406E6002A1CFF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -81,6 +80,7 @@
 		B6D445652989179B00C22041 /* CategorizedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategorizedViewController.swift; sourceTree = "<group>"; };
 		B6D44568298917DC00C22041 /* CategorizedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategorizedTableViewCell.swift; sourceTree = "<group>"; };
 		B6D44569298917DC00C22041 /* CategorizedTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategorizedTableViewCell.xib; sourceTree = "<group>"; };
+		E1E70A922B1A25B700DB620B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -265,7 +265,7 @@
 		B6D4453A2985BB9300C22041 /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				A0AB33792B19F73800BC5167 /* GoogleService-Info.plist */,
+				E1E70A922B1A25B700DB620B /* GoogleService-Info.plist */,
 				B6007921298406E7002A1CFF /* Info.plist */,
 				B6007913298406E6002A1CFF /* AppDelegate.swift */,
 				B6007915298406E6002A1CFF /* SceneDelegate.swift */,
@@ -394,7 +394,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B6D445492987BC0900C22041 /* ProductsCollectionViewCell.xib in Resources */,
-				A0AB337A2B19F73900BC5167 /* GoogleService-Info.plist in Resources */,
+				E1E70A932B1A25B700DB620B /* GoogleService-Info.plist in Resources */,
 				B6007920298406E7002A1CFF /* LaunchScreen.storyboard in Resources */,
 				B6D4453F29870A4800C22041 /* CategoriesCollectionViewCell.xib in Resources */,
 				B6D4456B298917DC00C22041 /* CategorizedTableViewCell.xib in Resources */,
