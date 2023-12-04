@@ -239,7 +239,11 @@ extension CartViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: K.TableView.cartTableViewCell, for: indexPath) as! CartTableViewCell
         let u = CartViewController.cartItems[indexPath.row]
-        cell.productImageView.sd_setImage(with: URL(string: u.image!), placeholderImage: UIImage(systemName: "photo.on.rectangle.angled"))
+        if #available(iOS 13.0, *) {
+            cell.productImageView.sd_setImage(with: URL(string: u.image!), placeholderImage: UIImage(systemName: "photo.on.rectangle.angled"))
+        } else {
+            // Fallback on earlier versions
+        }
         cell.productPriceLabel.text = "$\(u.price ?? -1)"
         cell.productTitleLabel.text = u.title
         cell.productQuantity.text = "\(String(describing: u.quantityCount!))"

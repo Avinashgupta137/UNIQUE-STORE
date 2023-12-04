@@ -62,7 +62,11 @@ class ProductDetailViewController: UIViewController {
                 do {
                     let productData = try JSONDecoder().decode(ProductData.self, from: response.data!)
                     DispatchQueue.main.async {
-                        self.productImage.sd_setImage(with: URL(string: productData.image), placeholderImage: UIImage(systemName: "photo"))
+                        if #available(iOS 13.0, *) {
+                            self.productImage.sd_setImage(with: URL(string: productData.image), placeholderImage: UIImage(systemName: "photo"))
+                        } else {
+                            // Fallback on earlier versions
+                        }
                         self.productRate.text = "⭐️\(productData.rating.rate)"
                         self.productPrice.text = "$\(productData.price)"
                         self.productTitle.text = productData.title

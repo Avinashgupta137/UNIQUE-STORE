@@ -9,6 +9,7 @@ import UIKit
 import Firebase
 import FirebaseStorage
 
+@available(iOS 13.0, *)
 class ProfileViewController: UIViewController {
     
     //MARK: - Properties
@@ -196,6 +197,7 @@ class ProfileViewController: UIViewController {
 }
 
 //MARK: - Extensions
+@available(iOS 13.0, *)
 extension ProfileViewController: UIImagePickerControllerDelegate {
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
         if let pickedImage = info[UIImagePickerController.InfoKey.originalImage] as? UIImage {
@@ -207,6 +209,7 @@ extension ProfileViewController: UIImagePickerControllerDelegate {
     }
 }
 
+@available(iOS 13.0, *)
 extension ProfileViewController: UINavigationControllerDelegate {
     //burayi silme
 }

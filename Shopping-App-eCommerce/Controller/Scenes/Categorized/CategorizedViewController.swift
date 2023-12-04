@@ -82,6 +82,7 @@ class CategorizedViewController: UIViewController {
 }
 
 //MARK: - Extensions
+@available(iOS 13.0, *)
 extension CategorizedViewController: UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {

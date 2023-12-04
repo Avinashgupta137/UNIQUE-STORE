@@ -137,6 +137,7 @@ class HomeViewController: UIViewController {
 }
 
 //MARK: - Extensions
+@available(iOS 13.0, *)
 extension HomeViewController: UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         switch collectionView {
